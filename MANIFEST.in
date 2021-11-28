@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include attendance_customization *.css
+recursive-include attendance_customization *.csv
+recursive-include attendance_customization *.html
+recursive-include attendance_customization *.ico
+recursive-include attendance_customization *.js
+recursive-include attendance_customization *.json
+recursive-include attendance_customization *.md
+recursive-include attendance_customization *.png
+recursive-include attendance_customization *.py
+recursive-include attendance_customization *.svg
+recursive-include attendance_customization *.txt
+recursive-exclude attendance_customization *.pyc
